@@ -15,8 +15,8 @@ function App() {
       <div>
          <Navbar></Navbar>
 
-         {/* <Home></Home>
-         <Middle></Middle>
+         <Home></Home>
+         {/* <Middle></Middle>
          <Destinations></Destinations>
          <Portifolio></Portifolio>
 
