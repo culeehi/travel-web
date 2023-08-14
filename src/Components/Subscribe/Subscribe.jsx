@@ -7,7 +7,7 @@ const Subscribe = () => {
    return (
       <div className="subscribe section container">
          <div className="secContainer grid">
-            <img src={img} alt="" />
+            <img className='imghihe' src={img} alt="" />
             <div className="textDiv">
                <h4>Best Way To Start Your Journey</h4>
                <p>We offer personalized itineraries tailored to individual preferences and intersts</p>

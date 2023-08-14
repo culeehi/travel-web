@@ -64,4 +64,56 @@
 .review .secContainer .imgDiv img {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media screen and (min-width: 480px) {
+  .review .textDiv .redText {
+    font-size: var(--normalFontSize);
+  }
+  .review .textDiv h3 {
+    font-size: 20px;
+    color: var(--blackColor);
+  }
+  .review .textDiv p {
+    color: var(--blackColor);
+    font-size: var(--normalFontSize);
+  }
+  .review .textDiv .stars .icon {
+    font-size: var(--h2FontSize);
+  }
+  .review .textDiv .clientsImages img {
+    height: 50px;
+    width: 50px;
+  }
+  .review .imgDiv {
+    height: 250px;
+    width: 100%;
+  }
+  .review .imgDiv img {
+    height: 100%;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 640px) {
+  .review .secContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .review .secContainer .textDiv .redText {
+    font-size: var(--normalFontSize);
+  }
+  .review .secContainer .textDiv h3 {
+    font-size: 20px;
+    color: var(--normalFontSize);
+  }
+  .review .secContainer .textDiv p {
+    color: var(--blackColor);
+    font-size: var(--normalFontSize);
+  }
+  .review .secContainer .textDiv .stars .icon {
+    font-size: var(--h2FontSize);
+  }
+  .review .secContainer .textDiv .clientsImages img {
+    height: 50px;
+    width: 50px;
+  }
 }/*# sourceMappingURL=Reviews.css.map */
