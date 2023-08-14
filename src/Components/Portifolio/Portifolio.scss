@@ -24,7 +24,7 @@
 .portifolio {
    .secContainer {
       gap: 2rem;
-      .leftContainer {
+      .leftContent {
          .grid {
             .singlePortifolio {
                gap: 1rem;
@@ -38,10 +38,122 @@
                }
                .info {
                   h4 {
-                     padding-bottom: 2.5rem;
-                     font-size: 40px;
+                     padding-bottom: 0.5rem;
                   }
                }
+            }
+         }
+      }
+   }
+}
+
+@media screen and (min-width: 480px) {
+   .portifolio {
+      .secContainer {
+         .leftContent {
+            .secHeading {
+               h3 {
+                  font-size: var(--h2FontSize);
+               }
+               p {
+                  font-size: var(--normalFontSize);
+                  padding: 0.5rem 0;
+               }
+            }
+            .grid {
+               .singlePortifolio {
+                  gap: 1.5rem;
+
+                  .iconDiv {
+                     img {
+                        height: 60px;
+                        width: 60px;
+                     }
+                  }
+                  .info {
+                     h4 {
+                        padding-bottom: 0.5rem;
+                        font-size: var(--h3FontSize);
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+
+@media screen and (min-width: 635px) {
+   .portifolio {
+      .secContainer {
+         display: block;
+         .leftContent {
+            .secHeading {
+               h3 {
+                  font-size: 2rem;
+               }
+               p {
+                  font-size: var(--h3FontSize);
+               }
+            }
+            .grid {
+               grid-template-columns: repeat(2, 1fr);
+               .singlePortifolio {
+                  gap: 1.5rem;
+
+                  .iconDiv {
+                     img {
+                        height: 60px;
+                        width: 60px;
+                     }
+                  }
+                  .info {
+                     h4 {
+                        padding-bottom: 0.5rem;
+                        font-size: var(--h3FontSize);
+                     }
+                  }
+               }
+            }
+         }
+         .rightContent {
+            margin: 20px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+               margin: auto;
+               max-width: 80%;
+            }
+         }
+      }
+   }
+}
+
+@media screen and (min-width: 820px) {
+   .portifolio {
+      .secContainer {
+         grid-template-columns: repeat(2, 1fr);
+         .leftContent {
+            .secHeading {
+               h3 {
+                  font-size: var(--h2FontSize);
+               }
+               p {
+                  font-size: var(--h3FontSize);
+               }
+            }
+            .grid {
+               grid-template-columns: repeat(1, 1fr);
+               .singlePortifolio {
+                  gap: 1.5rem;
+               }
+            }
+         }
+
+         .rightContent {
+            img {
+               max-width: 100%;
             }
          }
       }

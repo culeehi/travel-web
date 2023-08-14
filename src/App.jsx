@@ -14,17 +14,17 @@ function App() {
    return (
       <div>
          <Navbar></Navbar>
-
          <Home></Home>
          <Middle></Middle>
+
          <Destinations></Destinations>
          <Portifolio></Portifolio>
 
          <Reviews></Reviews>
-         {/* <Questions></Questions>
+         <Questions></Questions>
 
          <Subscribe></Subscribe>
-         <Foote></Foote> */}
+         <Foote></Foote>
       </div>
    );
 }
